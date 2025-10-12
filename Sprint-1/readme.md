@@ -1,6 +1,6 @@
 # 🧭 Guide to Week 1 exercises
 
-> https://programming.codeyourfuture.io/structuring-data/sprints/1/prep/
+> https://github.com/HackYourFutureBelgium/Intro-to-Programming/blob/main/2-Structuring%20and%20testing%20data/week4/1-preparation.md
 
 > [!TIP]
 > You should always do the prep work _before_ attempting the coursework.

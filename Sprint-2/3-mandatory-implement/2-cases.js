@@ -14,3 +14,9 @@
 // You will need to come up with an appropriate name for the function
 // Use the MDN string documentation to help you find a solution
 // This might help https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase
+
+let toUp = function (str) {
+  let newStr = str.toUpperCase().replace(/ /g, "_");
+  return newStr;
+};
+console.log(toUp("lord of the rings"));

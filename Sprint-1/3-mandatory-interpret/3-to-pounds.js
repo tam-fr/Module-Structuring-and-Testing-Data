@@ -4,17 +4,22 @@ const penceStringWithoutTrailingP = penceString.substring(
   0,
   penceString.length - 1 // take only 399
 );
+console.log(penceStringWithoutTrailingP);
 
 const paddedPenceNumberString = penceStringWithoutTrailingP.padStart(3, "0"); //The padStart() adds characters to the beginning of a string until the string reaches a specified total length
+console.log(paddedPenceNumberString);
+
 const pounds = paddedPenceNumberString.substring(
   0,
   paddedPenceNumberString.length - 2
 );
+console.log(pounds);
 
 const pence = paddedPenceNumberString
   .substring(paddedPenceNumberString.length - 2)
   .padEnd(2, "0");
 
+console.log(pence);
 console.log(`£${pounds}.${pence}`);
 
 // This program takes a string representing a price in pence

@@ -1,18 +1,18 @@
 // Predict and explain first...
 
 // Why will an error occur when this program runs?
-// =============> write your prediction here
+// =============> write your prediction here              --> decimalNumber is a variable which is declarer already
 
 // Try playing computer with the example to work out what is going on
 
 function convertToPercentage(decimalNumber) {
-  const decimalNumber = 0.5;
+  // const decimalNumber = 0.5;
   const percentage = `${decimalNumber * 100}%`;
 
   return percentage;
 }
-
-console.log(decimalNumber);
+const test = 0.5;
+console.log(test);
 
 // =============> write your explanation here
 

@@ -11,7 +11,7 @@ console.log(paddedPenceNumberString);
 
 const pounds = paddedPenceNumberString.substring(
   0,
-  paddedPenceNumberString.length - 2
+  paddedPenceNumberString.length - 2 // gives only the pound
 );
 console.log(pounds);
 

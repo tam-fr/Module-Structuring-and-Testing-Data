@@ -2,10 +2,10 @@ const penceString = "399p";
 
 const penceStringWithoutTrailingP = penceString.substring(
   0,
-  penceString.length - 1
+  penceString.length - 1 // take only 399
 );
 
-const paddedPenceNumberString = penceStringWithoutTrailingP.padStart(3, "0");
+const paddedPenceNumberString = penceStringWithoutTrailingP.padStart(3, "0"); //The padStart() adds characters to the beginning of a string until the string reaches a specified total length
 const pounds = paddedPenceNumberString.substring(
   0,
   paddedPenceNumberString.length - 2

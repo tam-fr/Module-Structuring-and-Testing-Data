@@ -17,7 +17,7 @@ console.log(`The percentage change is ${percentageChange}`);
 
 // c) Identify all the lines that are variable reassignment statements -->4,5,7,8
 
-// d) Identify all the lines that are variable declarations
+// d) Identify all the lines that are variable declarations  -->1,2,7,8
 
 // e) Describe what the expression Number(carPrice.replaceAll(",","")) is doing - what is the purpose of this expression?
 // --> Number gives the integer or real number and .replace() works with a string and replace all "," by nothing ""

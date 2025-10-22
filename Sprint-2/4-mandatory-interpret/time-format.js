@@ -29,8 +29,8 @@ function formatTimeDisplay(seconds) {
 // =============> write your answer here  ---> 0
 
 // d) What is the value assigned to num when pad is called for the last time in this program?  Explain your answer
-// =============> write your answer here
+// =============> write your answer here ---> 1 the function pad is called last time at the last place of return for remainingSeconds
 
 // e) What is the return value assigned to num when pad is called for the last time in this program?  Explain your answer
-// =============> write your answer here
+// =============> write your answer here  --> 1 because num is the parameter and pad has 1 as argument
 console.log(formatTimeDisplay(61));

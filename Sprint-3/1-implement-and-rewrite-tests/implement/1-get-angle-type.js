@@ -11,8 +11,8 @@ function getAngleType(angle) {
   if (angle === 90) {
     return "Right angle";
   }
-   // Run the tests, work out what Case 2 is testing, and implement the required code here.
-   // Then keep going for the other cases, one at a time.
+  // Run the tests, work out what Case 2 is testing, and implement the required code here.
+  // Then keep going for the other cases, one at a time.
 }
 
 // The line below allows us to load the getAngleType function into tests in other files.
@@ -27,7 +27,7 @@ function assertEquals(actualOutput, targetOutput) {
     `Expected ${actualOutput} to equal ${targetOutput}`
   );
 }
-
+console.log(90, 180);
 // Acceptance criteria:
 
 // Given an angle in degrees,

@@ -11,8 +11,8 @@ function convertToPercentage(decimalNumber) {
 
   return percentage;
 }
-const test = 0.5;
-console.log(test);
+const test = 0.25;
+console.log(convertToPercentage(test));
 
 // =============> write your explanation here
 

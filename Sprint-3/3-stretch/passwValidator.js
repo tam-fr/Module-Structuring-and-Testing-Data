@@ -1,7 +1,7 @@
 let ccValidator = function (digits) {
   const integer = "0123456789";
-  const same = digits[0];
-  let x = "";
+  let same = digits[0];
+
   let sum = 0;
   for (let i = 0; i < digits.length; i++) {
     if (!integer.includes(digits[i])) {
@@ -10,11 +10,14 @@ let ccValidator = function (digits) {
   }
   for (let i = 1; i < digits.length; i++) {
     if (same === digits[i]) {
-      x = digits[i];
-    } else {
-      if (digits[digits.length - 1] % 2 !== 0) {
-        return "The last digit must be even";
-      }
+      same = digits[i];
+    }
+    if (same === digits[digits.length]) {
+      return "Must not have the same digits";
+    }
+
+    if (digits[digits.length - 1] % 2 !== 0) {
+      return "The last digit must be even";
     }
   }
   for (let i = 0; i < digits.length; i++) {
@@ -30,6 +33,6 @@ let ccValidator = function (digits) {
   return "Good one!!";
 };
 
-const test = "4444444444444443";
+const test = "4444444444444344";
 console.log(ccValidator(test));
-// 100% correct without mistakes
+// 100% correct without mistakes made by Tam

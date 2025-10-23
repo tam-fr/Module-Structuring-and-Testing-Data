@@ -36,6 +36,6 @@ let ccValidator = function (digits) {
   return "Good one!!";
 };
 
-const test = "0000000010110026";
+const test = "1234567890123628";
 console.log(ccValidator(test));
-// 100% correct without mistakes made by Tam
+// 100% correct without mistakes made by Tam --> to check if all digits are the same, I have to use AI.

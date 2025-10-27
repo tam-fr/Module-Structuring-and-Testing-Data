@@ -1,0 +1,11 @@
+{
+  "jest": {
+    "displayName": "Tam",
+    "globals": {
+      "PROJECT_NAME": "HYF Coursework/Week 6"
+    },
+    "bail": 20,
+    "verbose": true
+  }
+
+}

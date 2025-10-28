@@ -6,7 +6,7 @@ function countChar(stringOfCharacters, findCharacter) {
         num++;
       }
     }
-    return `${findCharacter} appears ${num} time(s).`;
+    return `${findCharacter} appears ${num} time(s)`;
   } else return 0;
 }
 

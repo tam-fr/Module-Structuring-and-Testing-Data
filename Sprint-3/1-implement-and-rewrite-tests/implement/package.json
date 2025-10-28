@@ -6,6 +6,9 @@
     },
     "bail": 20,
     "verbose": true
+  },
+  "devDependencies": {
+    "@babel/preset-env": "7.28.5",
+    "babel-jest": "30.2.0"
   }
-
 }

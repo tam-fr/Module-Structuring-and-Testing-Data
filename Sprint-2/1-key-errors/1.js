@@ -1,7 +1,7 @@
 // Predict and explain first...
 
 // Why will an error occur when this program runs?
-// =============> write your prediction here              --> decimalNumber is a variable which is declarer already
+// =============> write your prediction here              --> decimalNumber is a variable which is declared already in the function declaration as parameter
 
 // Try playing computer with the example to work out what is going on
 

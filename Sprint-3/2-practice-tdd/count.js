@@ -10,6 +10,6 @@ function countChar(stringOfCharacters, findCharacter) {
   } else return 0;
 }
 
-console.log(countChar("Hello", "l"));
+// console.log(countChar("Hello", "l"));
 
 module.exports = countChar;

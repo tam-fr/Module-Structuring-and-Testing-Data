@@ -1,5 +1,9 @@
 function repeat(str, count) {
   let repeatedStr = "";
+  if (count < 0) {
+    return "impossible with a negative number";
+  }
+
   if (count === 0) {
     return "";
   }
@@ -9,8 +13,8 @@ function repeat(str, count) {
   return repeatedStr;
 }
 
-let test = "hello";
-let c = 3;
-console.log(repeat(test, c));
+/* let test = "hello";
+let c = 3; */
+// console.log(repeat(test, c));
 
 module.exports = repeat;

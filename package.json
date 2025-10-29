@@ -9,7 +9,15 @@
   "keywords": [],
   "author": "Code Your Future",
   "license": "ISC",
-  "dependencies": {
-    "jest": "^29.7.0"
-  }
+  "devDependencies": {
+    "jest": "^30.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tam-fr/Module-Structuring-and-Testing-Data.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tam-fr/Module-Structuring-and-Testing-Data/issues"
+  },
+  "homepage": "https://github.com/tam-fr/Module-Structuring-and-Testing-Data#readme"
 }
